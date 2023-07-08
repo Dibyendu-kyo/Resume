@@ -1,0 +1,139 @@
+.container-hero{
+    padding-top: 30px;
+    height: 100vh;
+    background-color: #e4f9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;margin-top: 0;
+}
+.top-cloud{
+    margin-left: 50%;
+}
+.bot-cloud{
+    margin-right: 50%;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    color: rgb(140, 230, 230);
+}
+.hero-tag{
+    font-size:xx-large;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(5, 226, 226);
+}
+span{
+    text-decoration:underline;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.container-resume{
+    padding-top: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-resume>h2{
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(140, 230, 230);
+}
+.container-resume>p{
+    font-size: large;
+    font-weight: lighter;
+    width: 350px;
+}
+.cat{
+    float: left;
+    
+}
+.cat-c{
+    padding-top: 20px;
+    height: 100vh;
+    font-size: x-large;
+    width: 800px;
+    justify-content: center;
+    align-items: center;margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact{
+    padding-top: 40px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact>h3{
+    font-size: xx-large;
+    color: rgb(140, 230, 230);
+}
+.contact>p{
+    font-size: large;
+    margin-top: 0%;
+}
+.contact>button{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11999e;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+button:hover{
+    opacity: 90%;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+@media(max-width:800px){
+    .cat-c{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin-bottom: 200px;
+    }
+    .contact{
+      width: auto;
+    }
+    .container-hero{
+        margin-bottom: 200px;
+       
+    }
+
+}
+@media(max-width:600px){
+    .cat-c{
+        width: 75%;
+        margin-bottom: 580px;
+    }
+    .container-hero{
+        margin-bottom: 500px;
+
+    }
+    h1{
+        font-size: 4rem;
+        font-family: 'Sacramento', cursive;
+        color: rgb(140, 230, 230);
+    }
+    .hero-tag{
+        font-size:x-large;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(5, 226, 226);
+}
+.contact{
+    width: 100%;
+    padding-top: 10px;
+   margin-bottom: 0;
+  }
+}
